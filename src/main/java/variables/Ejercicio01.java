@@ -19,5 +19,14 @@ public class Ejercicio01 {
     System.out.println("variable presupuesto "+presupuesto);
     System.out.println("variable longitud "+longitud);
     System.out.println("la suma de todas "+suma);
+    System.out.println("Todos juntos, "+"\n"
+        +"\tentero: "+numero+"\n"
+        +"\t\t short: "+marianico+"\n"
+        +"\tlong: "+gasol+"\n"
+        +"\tboolean: "+indepencia+"\n"
+        +"\tdouble: "+presupuesto+"\n"
+        +"\tfloat: "+longitud);
+        String ANSI_RED = "\u001B[31m";
+        System.out.println(ANSI_RED);
     }
 }
