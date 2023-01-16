@@ -11,12 +11,13 @@ public class Ejercicio01 {
     boolean indepencia = true;
     double presupuesto = -1.5*10;
     float longitud = -3*100;
+    long suma = numero*marianico*gasol*(int)presupuesto*(int)longitud;
     System.out.println("Variable Entero "+numero);
     System.out.println("Variable Short "+marianico);
     System.out.println("Variable Long "+gasol);
     System.out.println("variable independencia "+indepencia);
     System.out.println("variable presupuesto "+presupuesto);
     System.out.println("variable longitud "+longitud);
-    System.out.println("la suma de todas "+numero+marianico+gasol+presupuesto+longitud);
+    System.out.println("la suma de todas "+suma);
     }
 }
