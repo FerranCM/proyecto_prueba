@@ -26,7 +26,5 @@ public class Ejercicio01 {
         +"\tboolean: "+indepencia+"\n"
         +"\tdouble: "+presupuesto+"\n"
         +"\tfloat: "+longitud);
-        String ANSI_RED = "\u001B[31m";
-        System.out.println(ANSI_RED);
     }
 }
