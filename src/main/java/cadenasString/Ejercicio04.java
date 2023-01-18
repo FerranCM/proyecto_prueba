@@ -37,5 +37,17 @@ Declara otra cadena llamada saludo2 y compárala con la cadena saludo, saca un m
         }else{
             System.out.println("Ambos textos son diferentes");
         }
+        int i,j;
+        uno: for (i=0;i<saludo.length();i++){
+            dos: for (j=0;j<saludo2.length();j++){
+                if (saludo.charAt(i)==saludo2.charAt(j)){
+                    System.out.println("Esta letra esta en ambos textos: "+saludo.charAt(i));
+                    System.out.println("Esta en la posicion, "+i+" en saludo");
+                    System.out.println("Esta en la posicion, "+j+" en saludo2");
+                    continue uno;
+                }
+            }
+        }
+
     }
 }
