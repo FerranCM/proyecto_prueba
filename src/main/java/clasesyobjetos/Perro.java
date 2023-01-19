@@ -31,4 +31,10 @@ Coloca en la clase Perro el getter y el setter de raza
     public void setRaza(String raza) {
         this.raza = raza;
     }
+    @Override
+    public String toString() {
+        return "Perro de {" +
+                "raza, '" + raza + '\'' +
+                '}';
+    }
 }

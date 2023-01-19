@@ -34,7 +34,7 @@ Utiliza el getter y el setter en fluky para modificar e imprimir por pantalla su
 Ejercicio 16:
 introduce en la clase Perro el método toString para que devuelva lo normal en un toString (Clase [atributos-valores]). Usa el generate toString de Eclipse. Recuerda el @Override
  */
-public class ProgamaClases {
+public class PerroApp {
     public static void main(String[] args) {
 //incializamos un objeto de la clase perro
 /*
@@ -76,5 +76,11 @@ Utiliza el getter y el setter en fluky para modificar e imprimir por pantalla su
  */
     fluky.setRaza ("Caniche");
     System.out.println(fluky.raza);
+/*
+Ejercicio 16:
+introduce en la clase Perro el método toString para que devuelva lo normal en un toString (Clase [atributos-valores]). Usa el generate toString de Eclipse. Recuerda el @Override
+ */
+    fluky.setRaza ("Coker");
+    System.out.println(fluky);
     }
 }
