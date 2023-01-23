@@ -12,6 +12,16 @@ public class Jefe extends Empleado{
         this.reuniones = reuniones;
     }
 
+    public Jefe(Double sueldo, String cargo, String reuniones) {
+        super(sueldo, cargo);
+        this.reuniones = reuniones;
+    }
+
+    public Jefe(String nombre, String dni, String tlf, Double sueldo, String cargo, String reuniones) {
+        super(nombre, dni, tlf, sueldo, cargo);
+        this.reuniones = reuniones;
+    }
+
     public String getReuniones() {
         return reuniones;
     }
@@ -23,7 +33,13 @@ public class Jefe extends Empleado{
     @Override
     public String toString() {
         return "Jefe{" +
+                "nombre="+ getNombre()+ '\'' +
+                "dni='" + getDni() + '\'' +
+                ", tlf='" + getTlf() + '\'' +
+                "sueldo=" + getSueldo() +
+                ", cargo='" + getCargo() + '\'' +
                 "reuniones='" + reuniones + '\'' +
+                ", sueldo=" + sueldo +
                 '}';
     }
 }
