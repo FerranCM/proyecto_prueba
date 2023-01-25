@@ -1,0 +1,114 @@
+Ejercicio 1:
+
+Crea un proyecto llamado coelcciones
+
+Ejercicio 2:
+
+Crea una clase con método main llamada ProgramaColecciones
+
+Ejercicio 3:
+
+Crea una clase llamada Ordenador
+
+Ejercicio 4:
+
+Incluye en Ordenador dos atributos: Marca y Modelo
+
+Ejercicio 5:
+
+Crea los constructores, getter y setters y toString de Ordenador
+
+Ejercicio 6:
+
+Haz que Ordenador implemente Serializable
+
+Ejercicio 7:
+
+Crea la clase Pieza
+
+Ejercicio 8:
+
+Incluye los campos nombre y tipo de pieza en la clase Pieza
+
+Ejercicio 9:
+
+Crea los constructores, getter y setter y toString para Pieza. Haz que implemente el interfaz
+Serializable
+
+Ejercicio 10:
+
+Haz que Ordenador tenga una Pieza como atributo llamada pieza.
+
+Ejercicio 11:
+
+Crea un nuevo contructor, un getter y un setter y modifica el toString de Ordenador para adaptarse
+al nuevo atributo
+
+Ejercicio 12:
+
+Crea una pieza como objeto
+
+Crea un nuevo ordenador como objeto
+
+Asocia la pieza al objeto ordenador??
+
+Saca por pantalla el nombre de la pieza asociada al ordenador
+
+Ejercicio 13:
+
+Modifica el atributo pieza de ordenador para que sea un List<Pieza>
+
+Hay que modificar: constructor de Ordenador, los getter y setter de pieza, y el toString de Ordenador
+
+Ejercicio 14:
+
+Adaptar el Programa para que en vez de meter la pieza en el Ordenador, meter la pieza en el listado de piezas del
+ordenador
+
+Ejercicio 15:
+
+En el programa define 4 piezas distintas
+
+Ejercicio 16:
+
+Introduce todas las piezas en un conjunto (set) de piezas llamado misPiezas
+
+Ejercicio 17:
+
+Crea un nuevo objeto de una pieza pero que esté repetida
+
+Ejercicio 18:
+
+Intenta introducir esa nueva pieza repetida en misPiezas
+
+Comprueba que no se repite esa pieza en el set
+
+Ejercicio 19:
+
+Crea un nuevo conjunto de piezas, pero esat vez que esté ordenado llamado piezasOrdenadas
+
+Ejercicio 20:
+
+Imprime por pantalla el conjunto de piezasOrdenadas
+
+Ejercicio 21:
+
+Define un Map que pueda almacenar los datos de un Cliente: nombre, direccion, tlf, email
+
+En un ejemplo crea un objeto que tenga algnos datos en concreto para un cliente:
+
+nombre: pepe
+
+direccion: mi calle
+
+tlf: 677665+234
+
+email: p@p.com
+
+Ejercicio 21:
+
+Imprime por pantalla el valor del mapa del cliente
+
+Ejercicio 22:
+
+Crea un listado de objetos tipo mapa como el anterior ejercicio
